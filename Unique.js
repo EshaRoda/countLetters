@@ -1,10 +1,4 @@
 
-// function makeUnique(str) {
-//   return String.prototype.concat(...new Set(str))
-// }
-
-// console.log(makeUnique('lighthouse in the house')); // "abc"
-
 function countLetters(sentence){
     var letters = {};
     sentence = sentence.replace(/\s/g, '');
